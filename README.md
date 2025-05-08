@@ -5,7 +5,7 @@ Desenvolvimento da página Posto de Molas
 Tecnologias HTML5, CSS3 e JavaScript
 
 ## 🖼 Prévia do Projeto 
-![image](https://github.com/user-attachments/assets/55e51b88-f4cd-4e34-bd50-5da74f7bfe49)
+![image](https://github.com/user-attachments/assets/49ea455b-5494-4762-8c67-a7383ceb554b)
 *Página inicial do projeto Posto de Molas
 
 ## 🛠 Tecnologias utilizadas
