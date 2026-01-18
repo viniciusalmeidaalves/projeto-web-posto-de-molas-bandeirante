@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="description" content="Posto de Molas Bandeirante em São Carlos - Especialistas em molas, amortecedores e suspensão para caminhões. Atendimento rápido e peças com garantia.">
+      <meta name="keywords" content="molas para caminhão, posto de molas São Carlos, amortecedores, suspensão de caminhões, feixe de mola, manutenção de caminhão, oficina especializada São Carlos">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Posto de Molas Bandeirante</title>
+      <link rel="icon" href="./img/icones/favicon-posto-de-molas-bandeirante.png" type="image/x-icon">
+      <link rel="stylesheet" href="./css/estilos.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+      <script src="https://kit.fontawesome.com/dc52f1179d.js" crossorigin="anonymous"></script>
+  
+      <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16641003711"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-16641003711');
+      </script>
+
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-58TL9BJ2');</script>
+      <!-- End Google Tag Manager -->
+
+</head>
+
+  <body>
+      <!-- Inicio - Menu -->
+      <header>
+        <div class="logo-container-menu">
+          <img src="./img/logo/logo-menu-posto-de-molas-bandeirante.png" alt="Imagem - Logo Menu Posto de Molas Bandeirante" class="logo-menu">
+        </div>
+          <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+          </div>
+          <nav id="nav">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="servicos.html">Serviços</a>
+          <a href="contato.html">Contato</a>
+          <div class="social-icons">
+              <a href="https://www.facebook.com/postodemolasbandeiranteoficial2/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/postodemolasbandeiranteoficial/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/postodemolasbandeiranteoficial/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          </nav>
+      </header>
+      <!-- Final - Menu -->
+
+      <!-- Inicio - Section "Logo" -->
+      <section class="logo-principal">
+        <img src="./img/logo/logo-posto-de-molas-bandeirante.png" alt="Imagem - Logo Posto de Molas Bandeirante">
+      </section>
+      <!-- Final - Section "Logo" -->
+
+      <!-- Inicio - Div "Slide" -->
+      <div class="slideshow-container">
+        <div class="slide active">
+          <img src="./img/banners/banner-caminhao-oficina-posto-de-molas.jpg" alt="Imagem 1">
+        </div>
+        <div class="slide">
+          <img src="./img/banners/banner-mola-quintas-roda-posto-de-molas.jpg" alt="Imagem 2">
+        </div>
+        <div class="slide">
+          <img src="./img/banners/banner-suspenssor-e-bolsa-posto-de-molas.jpg" alt="Imagem 3">
+        </div>
+      <!-- Final - Div "Slide" -->
+
+        <!-- Pontos de navegação -->
+        <div class="dots">
+          <span class="dot active" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+
+      <!-- Inicio - Section "Audio" -->
+      <section class="audio-section">
+        <h2 class="audio-section_title">Ouça nossa vinheta</h2>
+        <p class="audio-section_description">Clique no play para ouvir a vinheta oficial da nossa marca!</p>
+
+        <audio class="audio-section_player" controls>
+          <source src="./audio/audio-vinheta.mp3" type="audio/mpeg">
+          Seu navegador não suporta o elemento de áudio.
+        </audio>
+      </section>
+      <!-- Final - Section "Audio" -->
+
+      <!-- Inicio - Modal -->
+      <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title">POSTO DE MOLAS BANDEIRANTE</h2>
+                <div class="tagline">"O Braço forte do caminhoneiro"</div>
+                <div class="close-icon" id="closeIcon">✕</div>
+            </div>
+            <div class="modal-content">
+            <!--<div class="modal-image">
+                    <img src="/api/placeholder/550/280" alt="Serviços de molas para caminhões">
+                </div>-->
+                <div class="modal-text">
+                    <p>Bem-vindo ao <span class="highlight">Posto de Molas Bandeirante</span>, sua solução completa para manutenção de suspensão de caminhões e veículos pesados!</p>
+                    
+                    <h3>Por que escolher nossos serviços?</h3>
+                    <ul class="checklist">
+                        <li>Equipe especializada com profissionais experientes</li>
+                        <li>Atendimento rápido para você voltar logo à estrada</li>
+                        <li>Peças de alta qualidade e garantia nos serviços</li>
+                        <li>Mais de 15 anos de experiência no mercado</li>
+                    </ul>
+                </div>
+                
+                <div class="modal-contato">
+                    <p>VENDA DE PRODUTOS</p>
+                    <p class="phone-number">(16) 3368-6238</p>
+                </div>
+                
+                <div class="modal-buttons">
+                    <button class="btn btn-primary" id="btnServicos">CONHEÇA NOSSOS SERVIÇOS</button>
+                    <button class="btn btn-secondary" id="closeButton">FECHAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim - Modal -->
+
+      <!-- Início - Section "Sobre Nós" 
+      <div class="sobre-nos-section">
+        <div class="container">
+          <h2 class="section-title">Quem Somos</h2>
+          <div class="sobre-nos-content">
+            <div class="sobre-nos-texto">
+              <p>O <strong>Posto de Molas Bandeirante</strong> é referência em São Carlos e região há mais de 15 anos, oferecendo soluções completas para suspensão de caminhões e veículos pesados. Nossa história começou com um sonho e cresceu com dedicação e compromisso com a qualidade.</p>
+              
+              <p>Nossa missão é garantir a segurança e o bom funcionamento da sua frota, oferecendo serviços especializados com agilidade e excelência técnica.</p>
+              
+              <ul class="sobre-nos-destaques">
+                <li><i class="fas fa-check-circle"></i> Mais de 15 anos de experiência</li>
+                <li><i class="fas fa-check-circle"></i> Atendimento para frotas e autônomos</li>
+                <li><i class="fas fa-check-circle"></i> Técnicos especializados</li>
+                <li><i class="fas fa-check-circle"></i> Peças e componentes originais</li>
+              </ul>
+            </div>
+            <div class="sobre-nos-imagem">
+              <img src="./img/imagens/fachada-posto-de-molas-bandeirante.png" alt="Imagem - Fachada Posto de Molas Bandeirante">
+            </div>
+          </div>
+        </div>
+      </div>
+      Final - Section "Sobre Nós" -->
+
+      <!-- Inicio - Div Serviços -->
+      <body>
+        <div class="container">
+            <h1 class="title">NOSSOS SERVIÇOS</h1>
+            
+            <div class="services-container">
+                <div class="sidebar">
+                    <div class="menu-item active" data-service="eixos">
+                        <i class="icon-eixos"></i>
+                        <span>EIXOS</span>
+                    </div>
+                    <div class="menu-item" data-service="suspensores">
+                        <i class="icon-suspensores"></i>
+                        <span>SUSPENSORES</span>
+                    </div>
+                    <div class="menu-item" data-service="feixes">
+                        <i class="icon-feixes"></i>
+                        <span>FEIXES DE MOLAS</span>
+                    </div>
+                    <div class="menu-item" data-service="freios">
+                        <i class="icon-freios"></i>
+                        <span>FREIOS</span>
+                    </div>
+                    <div class="menu-item" data-service="suspensao">
+                        <i class="icon-suspensao"></i>
+                        <span>SUSPENSÃO A AR</span>
+                    </div>
+                    <div class="menu-item" data-service="soldas">
+                        <i class="icon-soldas"></i>
+                        <span>SOLDAS</span>
+                    </div>
+                    <div class="menu-item" data-service="alinhamento">
+                        <i class="icon-alinhamento"></i>
+                        <span>ALINHAMENTO</span>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <div class="service-content active" id="eixos">
+                        <h2 class="service-header">EIXOS</h2>
+                        <p class="service-description">Ele é o componente onde são instalados os pares de rodas do veículos, ligando cada lado.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/eixo-simples-posto-de-molas-bandeirante.jpg" alt="Imagem - Eixo Simples">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/eixo-trucado-posto-de-molas-bandeirante.jpg" alt="Imagem - Eixo Trucado">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/eixo-duplo-tribus-posto-de-molas-bandeirante.jpg" alt="Imagem - Duplo Tribus">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Eixo Simples</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Eixo Trucado</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Eixo Duplo Tribus</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="service-content" id="suspensores">
+                        <h2 class="service-header">SUSPENSORES</h2>
+                        <p class="service-description">Sistema responsável por absorver os impactos e garantir estabilidade ao veículo.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/suspensor-pneumatico-eixo-posto-de-molas-bandeirante.jpg" alt="Imagem - Suspensor Pneumático 3° Eixo">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/suspensor-pneumatico-semi-reboque-posto-de-molas-bandeirante.jpg" alt="Imagem - Suspensor Pneumático Semi-Reboque">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/suspensorpneumatico-2-eixo-posto-de-molas-bandeirante.jpg" alt="Imagem - Suspensor Pneumático 2° Eixo">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Suspensor Pneumático 3° Eixo</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Suspensor Pneumático Semi-Reboque</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Suspensor Pneumático 2° Eixo</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-content" id="feixes">
+                        <h2 class="service-header">FEIXES DE MOLAS</h2>
+                        <p class="service-description">Conjunto de lâminas de aço empilhadas que proporcionam suspensão para veículos pesados.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/feixe-de-molas-linear-posto-de-molas-bandeirante.jpg" alt="Imagem - Feixe de Mola Ação Linear">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/feixe-de-molas-multiplas-posto-de-molas-bandeirante.jpg" alt="Imagem - Feixe de Mola Contra-Feixe">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/feixe-de-molas-com-feixe-auxiliar-posto-de-molas-bandeirante.jpg" alt="Imagem - Feixe de Mola com Feixe Auxiliar">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Feixes de Mola Ação Linear</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Feixe de Molas Progressivos Contra-Feixe</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Feixe de Mola Linear com Feixe Auxiliar</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-content" id="freios">
+                        <h2 class="service-header">FREIOS</h2>
+                        <p class="service-description">Sistemas de freios para caminhões e carretas, garantindo segurança e performance.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/freios-sistemas-pneumáticos-posto-de-molas-bandeirante.jpg" alt="Imagem - Freio Sistema Pneumáticos">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/freios-sistemas-eletricos-posto-de-molas-bandeirante.jpg" alt="Imagem - Freio Sistema Elétricos">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/freios-sistemas-hidraulicos-posto-de-molas-bandeirante.jpg" alt="Imagem - Freios Sistema Hidráulicos">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Freio Sistema Pneumáticos</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Freio Sistema Elétricos</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Freios Sistema Hidráulicos</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-content" id="suspensao">
+                        <h2 class="service-header">SUSPENSÃO A AR</h2>
+                        <p class="service-description">Sistema de suspensão que utiliza bolsas de ar para absorver impactos e nivelar o veículo.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/instalacao-suspensao-pneumatica-posto-de-molas-bandeirante.jpg" alt="Imagem - Instalação">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/manutencao-suspensao-pneumatica-dupla-posto-de-molas-bandeirante.jpg" alt="Imagem - Manutenção">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/ajustes-suspensao-pneumatica-posto-de-molas-bandeirante.jpg" alt="Imagem - Ajustes">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Instalação</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Manutenção</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Ajustes</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-content" id="soldas">
+                        <h2 class="service-header">SOLDAS</h2>
+                        <p class="service-description">Serviços de soldagem para chassis, estruturas e componentes de veículos pesados.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/solda-mig-posto-de-molas-bandeirante.jpg" alt="Imagem - Solda MIG">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/solda-tig-posto-de-molas-bandeirante.jpg" alt="Imagem - Solda TIG">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/solda-eletrica-posto-de-molas-bandeirante.jpg" alt="Imagem - Elétrica">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Solda MIG</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Solda TIG</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Solda Elétrica</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="service-content" id="alinhamento">
+                        <h2 class="service-header">ALINHAMENTO</h2>
+                        <p class="service-description">Serviço de alinhamento e balanceamento para diferentes tipos de veículos.</p>
+                        
+                        <div class="image-gallery">
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/alinhamento-computadorizado-posto-de-molas-bandeirante.jpg" alt="Imagem - Alinhamento Computadorizado">
+                            </div>
+                            <div class="service-image">
+                                <img src="./img/nossos-servicos/alinhamento-e-balanceamento-posto-de-molas-bandeirante.jpg" alt="Imagem - Balanceamento">
+                            </div>
+                        </div>
+                        
+                        <div class="service-types">
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Alinhamento Computadorizado</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Balanceamento</span>
+                            </div>
+                            <div class="service-type">
+                                <span class="check icon-check"></span>
+                                <span>Geometria</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Final - Div Serviços -->
+
+      <!-- Início - Section "Diferenciais" -->
+      <section class="diferenciais-section">
+        <div class="container">
+          <h2 class="section-title">Nossos Diferenciais</h2>
+          <p class="diferenciais-intro">Por que escolher o Posto de Molas Bandeirante para cuidar do seu veículo:</p>
+          
+          <div class="diferenciais-cards">
+            <div class="diferencial-card">
+              <div class="diferencial-icone">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Equipe Especializada</h3>
+              <p>Contamos com técnicos treinados e certificados, atualizados com as mais recentes tecnologias de suspensão para veículos pesados.</p>
+            </div>
+            
+            <div class="diferencial-card">
+              <div class="diferencial-icone">
+                <i class="fas fa-clock"></i>
+              </div>
+              <h3>Rapidez no Atendimento</h3>
+              <p>Sabemos que tempo é dinheiro. Nossa equipe trabalha com eficiência para que seu veículo volte à estrada o mais rápido possível.</p>
+            </div>
+            
+            <div class="diferencial-card">
+              <div class="diferencial-icone">
+                <i class="fas fa-medal"></i>
+              </div>
+              <h3>Qualidade Garantida</h3>
+              <p>Utilizamos apenas peças e componentes de alta qualidade, oferecendo garantia em todos os serviços realizados.</p>
+            </div>
+            
+           <!-- <div class="diferencial-card">
+              <div class="diferencial-icone">
+                <i class="fas fa-history"></i>
+              </div>
+              <h3>Tradição e Experiência</h3>
+              <p>Com mais de 15 anos no mercado, acumulamos expertise para resolver qualquer problema de suspensão em veículos pesados.</p>
+            </div> -->
+          </div>
+      </section>
+      <!-- Final - Section "Diferenciais" -->
+    
+      <!-- Inicio - Div Emergencias -->
+      <div class="emergency-section">
+        <div class="container">
+            <h2 class="section-title">SERVIÇOS DE EMERGÊNCIA</h2>
+            <div class="emergency-services">
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-truck-pickup"></i>
+                    </div>
+                    <h3>Autosocorro</h3>
+                    <p>Prestamos assistência com guincho e autosocorro para atender sua necessidade durante o horário comercial. Nossa equipe está preparada para oferecer o melhor atendimento.</p>
+                    <ul class="emergency-features">
+                        <li><i class="fas fa-check-circle"></i> Atendimento rápido</li>
+                        <li><i class="fas fa-check-circle"></i> Cobertura em toda região</li>
+                        <li><i class="fas fa-check-circle"></i> Profissionais treinados</li>
+                        <li><i class="fas fa-check-circle"></i> Equipamentos modernos</li>
+                    </ul>
+                    <div class="emergency-schedule">
+                        <div class="schedule-item">
+                            <span class="day">Segunda a Sexta:</span>
+                            <span class="hours">7h às 17h</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Sábados:</span>
+                            <span class="hours">7h às 12h</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Domingos e Feriados:</span>
+                            <span class="hours">Fechado</span>
+                        </div>
+                    </div>
+                    <!-- <a href="tel:16991234567" class="emergency-button">
+                        <i class="fas fa-phone"></i> Solicitar Autosocorro
+                    </a> -->
+                </div>
+                
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Caminhão Oficina</h3>
+                    <p>Nosso caminhão oficina vai até você para realizar reparos emergenciais no local da quebra, minimizando o tempo de parada e evitando custos com guincho.</p>
+                    <ul class="emergency-features">
+                        <li><i class="fas fa-check-circle"></i> Oficina móvel completa</li>
+                        <li><i class="fas fa-check-circle"></i> Ferramentas especializadas</li>
+                        <li><i class="fas fa-check-circle"></i> Peças de reposição a bordo</li>
+                        <li><i class="fas fa-check-circle"></i> Técnicos qualificados</li>
+                    </ul>
+                    <div class="emergency-schedule">
+                        <div class="schedule-item">
+                            <span class="day">Segunda a Sexta:</span>
+                            <span class="hours">7h às 17h</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Sábados:</span>
+                            <span class="hours">7h às 12h</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="day">Domingos e Feriados:</span>
+                            <span class="hours">Fechado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="emergency-info">
+                <div class="emergency-map">
+                    <h3><i class="fas fa-map-marked-alt"></i> Área de Cobertura</h3>
+                    <p>Atendemos toda a região de São Carlos e cidades em um raio de até 60km, incluindo:</p>
+                    <ul class="coverage-list">
+                        <li>Ibaté - 12 km</li>
+                        <li>Descalvado - 29 km</li>
+                        <li>Ribeirão Bonito - 30 km</li>
+                        <li>Dourado - 35 km</li>
+                        <li>Araraquara - 42 km</li>
+                        <li>Analândia - 44 km</li>
+                        <li>Itirapina - 46 km</li>
+                        <li>Gavião Peixoto - 45 km</li>
+                        <li>Trabiju - 48 km</li>
+                        <li>Brotas - 51 km</li>
+                        <li>Porto Ferreira - 53 km</li>
+                        <li>Motuca - 56 km</li>
+                        <li>Santa Rita do Passa Quatro - 59 km</li>
+                    </ul>
+                </div>
+                
+                <div class="emergency-contact-info">
+                    <div class="emergency-protocol">
+                        <h4>Como proceder em caso de emergência:</h4>
+                        <ol>
+                            <li>Entre em contato com nossa central</li>
+                            <li>Informe sua localização exata</li>
+                            <li>Descreva o problema brevemente</li>
+                            <li>Aguarde no local, nossa equipe chegará o mais rápido possível</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Final - Div Emergencias -->
+
+    <!-- Início - Section "Depoimentos"
+    <div class="depoimentos-section">
+      <div class="container">
+        <h2 class="section-title">O Que Dizem Nossos Clientes</h2>
+        <div class="depoimentos-slider">
+          <div class="depoimento-card">
+            <div class="depoimento-texto">
+              <i class="fas fa-quote-left"></i>
+              <p>O Posto de Molas Bandeirante é meu parceiro há mais de 10 anos. Sempre que preciso de manutenção na minha frota, sei que posso contar com eles para um serviço rápido e de qualidade.</p>
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="depoimento-autor">
+              <img src="./img/persona/joao-silva.png" alt="João Silva">
+              <div>
+                <h4>João Silva</h4>
+                <p>Transportadora Silva & Filhos</p>
+                <div class="depoimento-estrelas">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="depoimento-card">
+            <div class="depoimento-texto">
+              <i class="fas fa-quote-left"></i>
+              <p>Atendimento rápido e preço justo. Quando precisei trocar as molas do meu caminhão com urgência, o Posto Bandeirante me atendeu no mesmo dia. Ótimo serviço!</p>
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="depoimento-autor">
+              <img src="./img/persona/ana-santos.png" alt="Ana Santos">
+              <div>
+                <h4>Ana Santos</h4>
+                <p>Distribuidora Santos</p>
+                <div class="depoimento-estrelas">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="depoimento-card">
+            <div class="depoimento-texto">
+              <i class="fas fa-quote-left"></i>
+              <p>Atendimento rápido e preço justo. Quando precisei trocar as molas do meu caminhão com urgência, o Posto Bandeirante me atendeu no mesmo dia. Ótimo serviço!</p>
+              <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="depoimento-autor">
+              <img src="./img/persona/ana-santos.png" alt="Ana Santos">
+              <div>
+                <h4>Ana Santos</h4>
+                <p>Distribuidora Santos</p>
+                <div class="depoimento-estrelas">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="depoimentos-dots">
+          <span class="depoimento-dot active"></span>
+          <span class="depoimento-dot"></span>
+          <span class="depoimento-dot"></span>
+        </div>
+      </div>
+    </div>
+    Final - Section Depoimentos -->
+
+    <section>
+      <div class="call-to-action">
+        <h3>Precisando de nossos serviços?</h3>
+        <p>Confira nosso portifolio completo de serviços e entre em contato agora mesmo solicitando um orçamento sem compromisso.</p>
+        <a href="servicos.html" class="btn-contato">Confira Nossos Serviços</a>
+      </div> 
+    </div>
+    </section>
+
+        <!-- Inicio - Footer -->
+        <footer class="footer">
+          <div class="footer-container">
+              <div class="footer-logo">
+              <h2>Posto de Molas Bandeirante</h2>
+              <p>Especialistas em suspensão de caminhões.</p>
+
+<div class="secure-site-seal" style="margin-top: 10px;">
+    <!--- Secure Site Seal - DO NOT EDIT --->
+    <span id="ss_img_wrapper_115-55_image_en">
+        <a href="http://www.alphassl.com/ssl-certificates/wildcard-ssl.html" target="_blank" title="SSL Certificates">
+            <img alt="Wildcard SSL Certificates" border="0" id="ss_img" src="//seal.alphassl.com/SiteSeal/images/alpha_noscript_115-55_en.gif" title="SSL Certificate">
+        </a>
+    </span>
+    <script type="text/javascript" src="//seal.alphassl.com/SiteSeal/alpha_image_115-55_en.js"></script>
+    <!--- Secure Site Seal - DO NOT EDIT --->
+</div>
+
+              </div>
+          
+              <div class="footer-menu">
+              <h3>Menu</h3>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="sobre.html">Sobre</a></li>
+                  <li><a href="servicos.html">Serviços</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+              </ul>
+              </div>
+          
+              <div class="footer-contato">
+              <h3>Contato</h3>
+              <p>Rua Santa Gertrudes, 1101 - São Carlos-SP</p>
+              <p>CEP 13570-800</p>
+              <p>(16) 3368-6238</p>
+              <p>comercial@postodemolasbandeirante.com.br</p>
+              </div>
+          
+          <div class="footer-social">
+              <h3>Siga-nos</h3>
+              <a href="https://www.facebook.com/postodemolasbandeiranteoficial2/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+              <a href="https://www.instagram.com/postodemolasbandeiranteoficial/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+              <a href="https://www.linkedin.com/company/postodemolasbandeiranteoficial/" target="_blank"><i class="fab fa-linkedin-in"></i> Linkedin</a>
+              </div>
+          </div>
+          
+          <div class="footer-bottom">
+              <p>&copy; 2025 Posto de Molas Bandeirante. Todos os direitos reservados.</p>
+
+              <div class="dev-credit">
+              <span>Desenvolvido por:</span>
+              <a href="https://www.vtechnologie.com.br" target="_blank" class="dev-logo">
+                  <img src="img/logo/logo-vtechnologie-white.png" alt="VTechnologie" />
+              </a>
+              </div>
+          </div>
+          </footer>
+          <!-- Final - Footer -->
+
+          <!-- WhatsApp Flutuante -->
+          <a href="https://wa.me/5516997717465" class="whatsapp-float" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+
+      <script src="./js/scripts.min.js"></script>
+  </body>
+</html>
